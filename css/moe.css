@@ -1,0 +1,261 @@
+body {
+    background-color: #1a2c24;
+    height: 1633px;
+  }
+  /*STYLING FOR THE HEADER SECTION*/
+  .Canvas-Unveil {
+  position: absolute;
+  width: 253px;
+  height: 58px;
+  left: 15px;
+  top: 19px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #FFFFFF;
+    font-stretch: normal;
+    letter-spacing: normal;
+  }
+  .Artists:hover, .Donation:hover, .Community:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .Artists {
+  position: absolute;
+  width: 119px;
+  height: 49px;
+  left: 715px;
+  top: 28px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #FFFFFF; 
+    font-stretch: normal;
+    letter-spacing: normal;
+  }
+
+  .Donation {
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  position: absolute;
+  width: 150px;
+  height: 49px;
+  left: 899px;
+  top: 28px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #FFFFFF;
+  
+  
+  }
+  .Community {
+    font-stretch: normal;
+    letter-spacing: normal;
+  position: absolute;
+  width: 189px;
+  height: 49px;
+  left: 1114px;
+  top: 28px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #FFFFFF;
+  
+  
+  }
+  .homeicon {
+    position: absolute;
+    width: 95px;
+    height: 76px;
+    left: 1327px;
+    top: 1px;
+  }
+
+
+  .back {
+position: absolute;
+width: auto;
+left: 10px;
+top: 137px;
+cursor: pointer;
+  }
+
+  .bgimage {
+position: absolute;
+width: 1440px;
+height: 425px;
+left: 0px;
+top: 76px;
+mix-blend-mode: normal;
+  }
+
+  h1 {
+position: absolute;
+width: 278px;
+height: 57px;
+left: calc(50% - 278px/2);
+top: 113px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 65px;
+color: #FFFFFF;
+  }
+
+  .lyr {
+position: absolute;
+width: 319px;
+height: 57px;
+left: calc(50% - 319px/2 - 0.5px);
+top: 113px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 65px;
+color: #FFFFFF;
+  }
+
+  .lyruminfo {
+position: absolute;
+width: 1288px;
+height: 174px;
+left: 76px;
+top: 206px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+color: #FFFFFF;
+  }
+
+
+p {
+position: absolute;
+width: 1148px;
+height: 286px;
+left: 146px;
+top: 215px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+color: #FFFFFF;
+}
+
+.overlay {
+    position: absolute;
+    width: 1440px;
+    height: 424px;
+    left: 0px;
+    top: 77px;
+    background: rgba(0, 0, 0, 0.30);
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    }
+
+    .collage {
+position: absolute;
+width: 1440px;
+height: 665px;
+left: 0px;
+top: 501px;
+}
+/*h2{
+    position: absolute;
+width: 440px;
+height: 259px;
+left: calc(50% - 440px/2 - 467px);
+top: 1145px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+color: #FFFFFF;
+}*/
+
+.op {
+    font-size: 32px;
+}
+ul {
+position: absolute;
+width: 440px;
+height: 259px;
+left: calc(50% - 440px/2 - 467px);
+top: 1193px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 44px;
+color: #FFFFFF;
+}
+
+.fa {
+    font-size: 32px;
+}
+
+.ul2 {
+position: absolute;
+width: 323px;
+height: 244px;
+left: calc(50% - 323px/2 + 20.5px);
+top: 1193px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 44px;
+color: #FFFFFF;
+}
+
+.loctitle {
+    font-size: 32px;
+}
+
+.ul3 {
+position: absolute;
+width: 345px;
+height: 153px;
+left: calc(50% - 345px/2 + 514.5px);
+top: 1193px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 44px;
+color: #FFFFFF;
+}
+
+button {
+position: absolute;
+width: 307px;
+height: 60px;
+left: 596px;
+top: 1520px;
+background: #8EA998;
+border-radius: 50px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 38px;
+color: #000000;
+cursor: pointer;
+}

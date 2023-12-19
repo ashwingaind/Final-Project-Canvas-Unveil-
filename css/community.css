@@ -1,0 +1,115 @@
+body {
+    background-color: #1a2c24;
+  }
+  /*STYLING FOR THE HEADER SECTION*/
+  .Canvas-Unveil {
+    position: absolute;
+    width: 253px;
+    height: 58px;
+    left: 15px;
+    top: 19px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #ffffff;
+    font-stretch: normal;
+    letter-spacing: normal;
+  }
+  
+  .Artists:hover, .Donation:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .Artists {
+    position: absolute;
+    width: 119px;
+    height: 49px;
+    left: 715px;
+    top: 28px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #ffffff;
+    font-stretch: normal;
+    letter-spacing: normal;
+  }
+  
+  .Donation {
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    width: 150px;
+    height: 49px;
+    left: 899px;
+    top: 28px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #ffffff;
+  }
+  .Community {
+    font-stretch: normal;
+    letter-spacing: normal;
+    position: absolute;
+    width: 189px;
+    height: 49px;
+    left: 1114px;
+    top: 28px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #ffffff;
+  }
+  .homeicon {
+    position: absolute;
+    width: 95px;
+    height: 76px;
+    left: 1327px;
+    top: 1px;
+  }
+.error {
+position: absolute;
+width: 1440px;
+height: 1003px;
+left: 1px;
+top: 77px;
+}  
+
+h1 {
+position: absolute;
+width: 727px;
+height: 156px;
+left: 8px;
+top: 163px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 128px;
+line-height: 175px;
+color: #FFFFFF;
+}
+
+p {
+position: absolute;
+width: 1251px;
+height: 165px;
+left: 94px;
+top: 528px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 55px;
+color: #FFFFFF;
+}

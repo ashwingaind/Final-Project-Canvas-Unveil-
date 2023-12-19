@@ -1,0 +1,299 @@
+body {
+  background-color: #1a2c24;
+}
+/*STYLING FOR THE HEADER SECTION*/
+.Canvas-Unveil {
+  position: absolute;
+  width: 253px;
+  height: 58px;
+  left: 15px;
+  top: 19px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #ffffff;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+
+.Artists:hover, .Donation:hover, .Community:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.Artists {
+  position: absolute;
+  width: 119px;
+  height: 49px;
+  left: 715px;
+  top: 28px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+
+.Donation {
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  width: 150px;
+  height: 49px;
+  left: 899px;
+  top: 28px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
+}
+.Community {
+  font-stretch: normal;
+  letter-spacing: normal;
+  position: absolute;
+  width: 189px;
+  height: 49px;
+  left: 1114px;
+  top: 28px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
+}
+.homeicon {
+  position: absolute;
+  width: 95px;
+  height: 76px;
+  left: 1327px;
+  top: 1px;
+}
+
+/*STYLING FOR THE BACKGROUND IMAGE*/
+.bgimage {
+  padding-top: 69px;
+  width: 1440px;
+  height: 1003px;
+}
+
+/*STYLING INDIVIDUAL IMAGES*/
+.moe {
+  box-sizing: border-box;
+  position: absolute;
+  width: 406px;
+  height: 408px;
+  left: 91px;
+  top: 374px;
+  border: 5px solid #dfe7e3;
+  border-radius: 10px;
+}
+
+.pakhus {
+  box-sizing: border-box;
+  position: absolute;
+  width: 406px;
+  height: 408px;
+  left: 517px;
+  top: 374px;
+  border: 5px solid #dfe7e3;
+  border-radius: 10px;
+}
+
+.lyrum {
+  box-sizing: border-box;
+  position: absolute;
+  width: 406px;
+  height: 408px;
+  left: 943px;
+  top: 374px;
+  border: 5px solid #dfe7e3;
+  border-radius: 10px;
+}
+
+/*ADDING A DIM LAYER ON TOP*/
+.overlay {
+  position: absolute;
+  width: 1440px;
+  height: 1003px;
+  top: 77px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/*STYLING FOR THE HEADING*/
+.heading {
+  position: absolute;
+  width: 616px;
+  height: 74px;
+  left: calc(50% - 616px / 2 - 2px);
+  top: 233px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 74px;
+  color: #ffffff;
+}
+.button1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 264px;
+  height: 46px;
+  left: 162px;
+  top: 824px;
+  background: #8ea998;
+  border: 2px solid #dfe7e3;
+  border-radius: 10px;
+  position: absolute;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+  cursor: pointer;
+}
+.button2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 264px;
+  height: 46px;
+  left: 588px;
+  top: 824px;
+  background: #8ea998;
+  border: 2px solid #dfe7e3;
+  border-radius: 10px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+  cursor: pointer;
+}
+.button3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 264px;
+  height: 46px;
+  left: 1014px;
+  top: 824px;
+  background: #8ea998;
+  border: 2px solid #dfe7e3;
+  border-radius: 10px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* FOR THE MOBILE VERSION*/
+@media (max-width: 600px) {
+  .bgimage {
+    position: absolute;
+    width: 520px;
+    height: 1222px;
+    top: 47px;
+    mix-blend-mode: multiply;
+  }
+  .moe {
+    box-sizing: border-box;
+    position: absolute;
+    width: 244px;
+    height: 240px;
+    left: 125px;
+    top: 244px;
+  }
+  .Canvas-Unveil {
+    position: absolute;
+    width: 186px;
+    height: 38px;
+    left: 20px;
+    top: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .overlay {
+    display: none;
+  }
+  .Artists,
+  .Donation,
+  .Community {
+    display: none;
+  }
+  .homeicon {
+    position: absolute;
+    left: 400px;
+    top: 10px;
+    height: auto;
+  }
+  .heading {
+    position: absolute;
+    width: 294px;
+    height: 52px;
+    left: calc(50% - 294px / 2 - 0.5px);
+    top: 165px;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .pakhus {
+    position: absolute;
+    width: 244px;
+    height: 237px;
+    left: 74px;
+    top: 589px;
+    left: 125px;
+  }
+  .button1 {
+    position: absolute;
+    width: 174px;
+    height: 38px;
+    left: 160px;
+    top: 511px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .button2 {
+    position: absolute;
+    width: 174px;
+    height: 38px;
+    left: 160px;
+    top: 851px;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .lyrum {
+    position: absolute;
+    width: 244px;
+    height: 245px;
+    left: 125px;
+    top: 927px;
+  }
+
+  .button3 {
+    position: absolute;
+    width: 174px;
+    height: 38px;
+    left: 160px;
+    top: 1199px;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+  }
+}

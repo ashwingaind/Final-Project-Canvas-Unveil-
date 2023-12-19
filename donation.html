@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page is for donating to the hidden gems of Aarhus>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/donation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap">
+   <!-- Add qrcode.min.js from a CDN -->
+   <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+</head>
+<body>
+     <!-- Header section -->
+    <header>
+        <div>
+            <!-- Navigation links -->
+      <span class="Canvas-Unveil">
+        Canvas Unveil
+      </span>
+     <a href="artists.html"> <span class="Artists">
+        Artists
+      </span>
+     </a>
+      <span class="Donation">
+       Donation
+      </span>
+      <a href="community.html"> <span class="Community">
+        Community
+      </span>
+     </a>
+     <a href="index.html"><img class="homeicon" src="images/icon.png" alt="Home Icon"/></a>
+        </div>
+      </header>
+
+       <!-- Main content of the page -->
+      <div class="container">
+
+        <!-- Background image and introductory paragraph -->
+        <img class="bgimage" src="images/image.png" alt="Background Image">
+
+         <!-- Donation information -->
+        <p class="p1">
+            One of the most common issues faced by struggling artists and galleries is financial constraint.
+            <br>
+            <br>
+            To help and support the emerging artists and underappreciated art galleries there is an option to donate. You can fill the details below and then click on “Donate now” if you would like to help. All proceeds go to the artists and art galleries. 
+            <br>
+            <br>
+            Your contribution is always appreciated and admired. 
+        </p>
+        <div class="overlay"></div>
+      </div>
+
+      <!-- Donation form section -->
+      <main>
+      <section class="DonationForm">
+        <h2> Fill in the details to donate </h2>
+        <br>
+        <br>
+
+        <label for="amount">Donation Amount:</label>
+        <input type="number" id="amount" name="amount" min="1" placeholder="Enter amount : eg 1000 dkk" required >
+        <br>
+        <br>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="John Michael" required>
+        <br>
+        <br>
+        <label for="cardNumber">Credit Card Number:</label>
+        <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 **** **** " required> 
+        <br>
+        <br>
+        <label for="expiryDate">Expiry Date:</label>
+        <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YYYY" required>
+        <br>
+        <br>
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" placeholder="1**" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="johnmichael@gmail.com" required>
+
+        <button type="button" id="donateButton">Donate Now</button>
+             <!-- Thank You Card -->
+            <div id="thankYouCard">
+                Heartiest thanks for donating, your support means the world.
+            </div>
+ </section>
+      </main>
+
+       <!-- QR Code section -->
+      <p class="para">
+        Or you can donate via mobile pay, by scanning the code:
+      </p>
+ 
+ 
+      <button class="qr" onclick="showQRCodeModal()">Show QR Code</button>
+
+      <!-- Add a container for the QR code modal -->
+      <div id="qrCodeModal" class="modal">
+          <!-- Container for the QR code -->
+          <div id="mobilePayQRCodeModal"></div>
+      </div>
+
+
+
+       <script src="js/donation.js"> </script>
+    
+    
+        
+</body>
+</html>

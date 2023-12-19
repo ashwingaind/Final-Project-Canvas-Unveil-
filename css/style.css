@@ -1,0 +1,217 @@
+body {
+  background-color: #1a2c24;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box;
+}
+
+
+
+.Artists:hover, .Donation:hover, .Community:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+.Canvas-Unveil {
+position: absolute;
+width: 253px;
+height: 58px;
+left: 15px;
+top: 19px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+color: #FFFFFF;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+.Artists {
+position: absolute;
+width: 119px;
+height: 49px;
+left: 715px;
+top: 28px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+color: #FFFFFF; 
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+.Donation {
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+position: absolute;
+width: 150px;
+height: 49px;
+left: 899px;
+top: 28px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+color: #FFFFFF;
+
+
+}
+.Community {
+  font-stretch: normal;
+  letter-spacing: normal;
+position: absolute;
+width: 189px;
+height: 49px;
+left: 1114px;
+top: 28px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+color: #FFFFFF;
+
+
+}
+.homeicon {
+position: absolute;
+width: 95px;
+height: 76px;
+left: 1327px;
+top: 1px;
+}
+
+
+
+.bgimage {
+  padding-top: 77px;
+  width: 1440px;
+  height: 1003px;
+}
+.overlay {
+position: absolute;
+width: 1440px;
+height: 1003px;
+top: 77px;
+background: rgba(0, 0, 0, 0.25);
+}
+
+
+.Art-is-poetry-without-words {
+position: absolute;
+width: 632px;
+height: 108px;
+left: calc(50% - 632px/2);
+top: 460px;
+font-family: 'Lovers Quarrel';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 108px;
+color: #FFFFFF;
+}
+.Uplifting-the-underrated-Art-galleries-of-Aarhus-the-emerging-artists {
+position: absolute;
+width: 1065px;
+height: 57px;
+left: calc(50% - 1065px/2 - 0.5px);
+top: 595px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+
+
+}
+button {
+position: absolute;
+width: 300px;
+height: 70px;
+left: 570px;
+top: 679px;
+background: #8EA998;
+border-radius: 50px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+color: #000000;
+cursor: pointer;
+}
+
+  /* FOR THE MOBILE VERSION*/
+@media (max-width:600px) {
+
+  .Canvas-Unveil{
+position: absolute;
+width: 186px;
+height: 38px;
+left: 20px;
+top: 47px;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+  }
+
+  .bgimage{
+position: absolute;
+width: 520px;
+height: 450px;
+left: 0px;
+top: 47px;
+  }
+  .overlay {
+    display: none;
+  }
+  .Artists, .Donation, .Community {
+    display: none;
+  }
+  .homeicon {
+position: absolute;
+left: 400px;
+top: 10px;
+height: auto;
+  }
+  .Art-is-poetry-without-words {
+width: 380px;
+height: 65px;
+left: calc(50% - 380px/2 + 0.5px);
+top: 585px;
+font-family: 'Lovers Quarrel';
+font-style: normal;
+font-weight: 400;
+font-size: 58px;
+line-height: 65px;
+  }
+  .Uplifting-the-underrated-Art-galleries-of-Aarhus-the-emerging-artists {
+position: absolute;
+width: auto;;
+left: 30px;
+top: 675px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+  }
+  button {
+position: absolute;
+width: 216px;
+height: 56px;
+left: 130px;
+top: 765px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+  }
+}
